@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz System</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <button id="darkModeBtn">
+        🌙 Dark Mode
+    </button>
+
+    <div class="quiz-container">
+
+        <h1>Online Quiz System</h1>
+
+        <!-- Category -->
+        <select id="category">
+            <option value="all">All Categories</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select>
+
+        <!-- Timer -->
+        <div id="timer">
+            Time Left: 15s
+        </div>
+
+        <!-- Question -->
+        <div id="question-container">
+
+        </div>
+
+        <!-- Button -->
+        <button id="nextBtn">
+            Next Question
+        </button>
+
+        <button id="aiQuestionBtn">
+        Generate AI Question
+        </button>
+
+
+        <!-- Score -->
+        <h2 id="score"></h2>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
